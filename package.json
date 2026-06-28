@@ -8,8 +8,27 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.1",
+    "@ai-sdk/react": "^3.0.216",
+    "@primer/octicons-react": "^19.28.1",
+    "@primer/primitives": "^11.9.0",
+    "@primer/react": "^38.29.0",
+    "ai": "^6.0.214",
+    "better-auth": "^1.6.22",
+    "cron-parser": "^5.6.1",
+    "drizzle-orm": "^0.45.2",
     "next": "^15.0.0",
+    "pg": "^8.22.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "styled-components": "^6.4.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
   }
 }
